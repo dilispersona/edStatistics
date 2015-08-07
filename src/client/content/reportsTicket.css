@@ -1,0 +1,177 @@
+.tickets-main-container{
+	padding-left: 0px;
+	  background-color: #fefcfd;
+}
+.tickets-header-project-name {
+  color: #243b4f;
+  font-size: 22px;
+  margin-top: 3px;
+  margin-left: 1%;
+  float: left;
+}
+.tickets-header-project-title {
+  color: #243b4f;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 9px;
+  float: left;
+  letter-spacing: 0.5px;
+}
+
+/*********** all time panel ************/
+.all-time {
+  margin-left: 4.9%;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 15px;
+  background-color: white;
+}
+.all-time-text {
+  font-size: 22px;
+  padding-left: 5px;
+  color: #acacac;
+  font-weight: bold;
+}  
+.all-time .all-time-tickets {
+  text-align: center;
+  border-right:1px solid #c2c2c2;
+}
+.all-time .all-time-tickets .tickets-count{
+margin-top: 0px;
+  margin-bottom: 7px;
+  color: #243b4f;
+  font-weight: bold;
+  font-size: 32px;
+}
+.all-time .all-time-tickets p{
+font-size: 17px;
+color:#7e7e7e;
+}
+.all-time .all-time-audits {
+  text-align: center;
+  border-right:1px solid #c2c2c2;
+}
+.all-time .all-time-audits .audits-count{
+margin-top: 0px;
+  margin-bottom: 7px;
+  color: #243b4f;
+  font-weight: bold;
+  font-size: 32px;
+}
+.all-time .all-time-audits p{
+font-size: 17px;
+  color: #7e7e7e;
+}
+
+/*********** left panel ************/
+.ticket-left-panel {
+  margin-left: 4.9%;
+  border-right: 2px solid #e1e1e1;
+  width: 21%;
+  padding-right: 0px;
+padding-left: 0px;
+  height: 500px;
+  background-color: white;
+}
+.ticket-left-panel p{
+  font-size: 18px;
+  margin-bottom: 0px;
+  padding-left: 33px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color:#797979;
+}
+.left-panel-tickets {
+	padding-left: 0px;
+	padding-right: 0px;
+	border-bottom: 2px solid #dedede;
+}
+.left-panel-tickets h4 {
+  border-bottom: 2px solid #dedede;
+  padding-left: 13px;
+  padding-bottom: 15px;
+  padding-top: 11px;
+  margin-bottom: 0px;
+  color:#243a4f;
+  font-size: 19px;
+}
+.left-panel-audits {
+	padding-left: 0px;
+	padding-right: 0px;
+	border-bottom: 2px solid #dedede;
+}
+.left-panel-audits h4 {
+  border-bottom: 2px solid #dedede;
+  padding-left: 13px;
+  padding-bottom: 15px;
+  padding-top: 11px;
+  margin-bottom: 0px;
+  color:#243a4f;
+    font-size: 19px;
+}
+
+/*********** right panel ************/
+.ticket-right-panel {
+width: 70.6%;
+  padding-left: 0px;
+  padding-right: 0px;
+    background-color: white;
+}
+.right-panel-header {
+  padding-top: 9px;
+}
+.right-panel-header p{
+  float: left;
+  font-size: 18px;
+  padding-bottom: 10px;
+  padding-top: 14px;
+    padding-left: 10px;
+  color:#47729c;
+    font-weight: bold;
+}
+.right-panel-header-date {
+	float: right;
+	  padding-right: 2.3%;
+}
+.right-panel-header-date input{ 
+	width: 205px;
+  height: 30px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  margin-left: 4px;
+  margin-right: 3px;
+}
+.right-panel-header-date button{ 
+background-color: #547a9e;
+  width: 42px;
+  height: 28px;
+  padding-top: 3px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+.right-panel-header-border-bottom {
+	border-top: 2px solid #cccccc;
+}
+.area-bar-download-right {
+	float: right;
+}
+.area-bar-download-right p{
+float: left;
+  width: 59px;
+  text-align: center;
+  margin-top: -2px;
+  color: #47729c;
+  font-size: 13px;
+  margin-bottom: 0px;
+  padding-top: 3px;
+}
+.area-bar-download-right .active-tab{
+border: 1px solid #e8e8e8;
+border-top: 2px solid white;
+}
+.area-bar-download-right .download-img{
+  width: 15px;
+  height: 17px;
+  margin-left: 27px;
+  margin-right: 11px;
+}

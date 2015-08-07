@@ -1,0 +1,299 @@
+body{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.home_nav {
+    background-color: #243b4f;
+    border-color: #243b4f;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#dropdown_main a{
+    cursor: default;
+    font-size: 16px;
+    margin:0 45px 20px 45px;
+}
+#logout{
+  position: absolute;
+  top:10px;
+  right:10px;
+}
+.ED_Logo {
+    margin-top: -12px;
+}
+
+.home_nav {
+    background-color: #243b4f;
+    border-color: #243b4f;
+    border-radius: 0px;
+    width:100%;
+}
+.main-header-reports {
+   float: left;
+  padding-left: 25px;
+  padding-top: 22px; 
+} 
+
+.main-header-reports h4 {
+width:100px;
+float: left;
+color: white;
+font-size: 20px;
+margin-bottom: 0px;
+}
+.main-header-reports h4:hover{
+background-image: url("../images/reports-arrow-head.png");
+background-repeat: no-repeat;
+  background-position: 85px 9px;
+}
+.home_nav_padding-right {
+      width: 100%;
+  padding-left: 4.5%;
+      padding-right: 44px;
+}
+.nav_bar_right_padding {
+    width:100%;
+}
+.mainheader-text {
+    background-color: #243b4f !important;
+    color: #a4bacc !important;
+  font-weight: bold;
+  font-size: 15px;
+  padding-bottom: 12px !important;
+}
+.mainheader-text span{
+  margin-left: 18px;
+}
+.mainHeader-row {
+ margin-right: 0px !important;   
+}
+
+/********* project heading ********/
+.projects-header {
+   padding-top: 23px;
+  padding-left: 4%;
+  padding-bottom: 23px;
+  border-bottom: 2px solid #e1e1e1;
+}
+.projects-header .projects-header-name {
+color: #243b4f;
+  font-size: 22px;
+    margin-top: 3px;
+      padding-left: 1%;   
+}
+
+.projects-header .projects-header-search input{
+  padding-left: 7px;
+  width: 250px;
+  height: 30px;
+  border: 1px solid #e1e1e1;
+  background-image: url(../images/reports-search.png);
+  background-repeat: no-repeat;
+  background-size: 18px 19px;
+  background-position: 223px 6px;
+  border-radius: 5px;
+}
+.projects-header-date {
+  padding-left: 6%;
+}
+.projects-header-date input{
+  width: 205px;
+  height: 30px;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+    margin-left: 4px;
+      margin-right: 3px;
+}
+.projects-header-date button{
+  background-color: #547a9e;
+  width: 42px;
+  height: 28px;
+  padding-top: 3px;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+/********* project List heading ********/
+.projects-list {
+    background-color: #fefcfd;
+}
+.projects-list-header {
+  border-bottom: 2px solid #ececec;
+  padding-bottom: 8px;
+    margin-left: 3.8%;
+      padding-top: 16px;
+      background-color: white;
+}
+.projects-list-header .pl-header-name input {
+  float: left;
+    width: 17px;
+  height: 17px;
+   margin-top: 10px; 
+}
+/**************** checkbox styles ***************/
+.checkbox-main-div input[type=checkbox] {
+    display: none;
+}
+.checkbox-main-div {
+    overflow: auto;
+    float: left;
+    padding-top: 10px;
+}
+.checkbox-main-div label {
+    float: left;
+    width: 17px;
+    height: 15px;
+}
+.checkbox-main-div label input {
+    top: -22px;
+}
+.checkbox-main-div label span {
+    cursor: pointer;
+    text-align: center;
+    height: 16px;
+    width: 48x;
+    display: block;
+    background: url(../images/check_box.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+}
+.checkbox-main-div input:checked + span {
+    background: url(../images/check_box_tick.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    color: #fff;
+}
+.projects-list-header .pl-header-name h4 {
+padding-left: 27px;
+  padding-right: 29px;
+  float: left;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #243a4f;
+  background-image: url("../images/asc-arrow.png");
+  background-repeat: no-repeat;
+  background-position: 90px 6px;
+    font-size: 19px;
+}
+.selected-count {
+  float: left;
+}
+.selected-count p{
+  float: left;
+    margin-top: 8px;
+  margin-left: 18px;
+  margin-right: 11px;
+    color: #243a4f;
+      font-weight: bold;
+}
+.selected-count h5{
+float: left;
+  border: 1px solid #a7b5c0;
+  border-radius: 3px;
+  padding: 5px 8px;
+  margin-top: 5px;
+    font-weight: bold;
+    color: #484747;
+    background-color: #c9e7ff;
+}
+.pl-header-open-tickets h4{
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: #243a4f;
+    font-size: 19px;
+}
+.pl-header-audits h4 {
+ text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  color: #243a4f;
+    font-size: 19px;
+}
+
+/********* projects list container ********/
+#projects-container {
+  border-bottom: 1px solid #ececec;
+    margin-left: 3.8%;
+      padding-top: 16px;
+      background-color: white;
+}
+.projects-container-ul{
+  list-style-type: none;
+    padding-left: 0px;
+}
+#projects-container .pl-container-name input {
+  float: left;
+    width: 17px;
+  height: 17px;
+    margin-top: 10px;
+}
+#projects-container .pl-container-name h4 {
+padding-left: 27px;
+  float: left;
+  color: #6a6a6a;
+    font-size: 19px;
+}
+
+.pl-container-open-tickets h4{
+  text-align: center;
+    margin-bottom: 0px;
+    color: #6a6a6a;
+      font-size: 19px;
+}
+.pl-container-green-active{
+ font-size: 15px;
+ text-align: center;
+ color:#82ca9c;
+ background-image: url("../images/green-up-arrow.png");
+ background-repeat: no-repeat;
+  background-position: 48px 6px;
+}
+.pl-container-audits h4 {
+  text-align: center;
+    margin-bottom: 0px;
+    color: #6a6a6a;
+      font-size: 19px;
+}
+.pl-container-red-active{
+ font-size: 15px;
+ text-align: center;
+ color:#e53935;
+ background-image: url("../images/red-down-arrow.png");
+ background-repeat: no-repeat;
+  background-position: 48px 6px;
+}
+/********* project footer********/
+.projects-footer {
+  padding-bottom: 8px;
+    margin-left: 3.8%;
+    background-color: white;
+}
+.projects-footer-content {
+float: right;
+  padding-top: 40px;
+  padding-right: 2%;
+}
+.projects-footer-content p {
+  float: left;
+  font-size: 17px;
+  color:#666666;
+}
+.projects-footer-content h5{
+  float: left;
+  font-size: 17px;
+  color:#989898;
+    margin: 3px 8px;
+}
+.projects-footer-pagination {
+  float: right;
+  margin-left: 10px;
+}
+.projects-footer-pagination img:nth-child(2){
+  margin-left: -7px;
+}
+.drop_nav_position{
+  float: right;
+  clear: both;
+}

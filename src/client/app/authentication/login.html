@@ -1,0 +1,47 @@
+<section>
+    <div class="modal-dialog login-login_popup">
+
+        <div class="modal-header" style="background-color:#16a6c6">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title for-font" id="myModalLabel" style="color:white;font-size:20px;">Login to ED Controls</h4>
+        </div>
+
+        <div class="modal-body login-login_popup_body">
+
+
+            <form name="userForm" ng-submit="vm.submitForm(userForm.$valid)" novalidate>
+
+                <!-- EMAIL -->
+                <div class="form-group" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }">
+                    <label>Email</label>
+                    <input type="email" name="email" class="form-control" ng-model="vm.email" required>
+                    <span style="color:red" ng-show="userForm.email.$dirty && userForm.email.$invalid">
+                    <span ng-show="userForm.email.$error.required">Username is required.</span>
+                    </span>
+                </div>
+
+                <!-- PASSWORD -->
+                <div class="form-group" ng-class="{ 'has-error' : userForm.password.$invalid && !userForm.password.$pristine }">
+                    <label>Password</label>
+                    <input type="password" name="password" class="form-control" ng-model="vm.password" required>
+                    <span style="color:red" ng-show="userForm.password.$dirty && userForm.password.$invalid">
+                    <span ng-show="userForm.password.$error.required">password is required.</span>
+                    </span>
+                </div>
+
+
+                <div class="span2" style="margin-top: 35px;">
+                    <p><input type="submit" id="butn-login"
+                              ng-disabled="userForm.email.$dirty && userForm.email.$invalid || userForm.password.dirty && userForm.password.$invalid "
+                              style="background-color: #16a6c6;border-color: #16a6c6;height:50px;width:100%; color:#ffffff;font-size:22px">
+                    </p>
+                </div>
+
+            </form>
+
+        </div>
+
+
+    </div>
+
+</section>

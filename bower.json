@@ -1,19 +1,32 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "name": "AngularJS Modular Demo",
+  "version": "0.0.1",
+  "description": "AngularJS Modular Demo",
+  "authors": [
+    "John Papa"
+  ],
   "license": "MIT",
-  "private": true,
+  "homepage": "https://github.com/johnpapa/ng-demos",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-mocks": "~1.2.24"
+  },
   "dependencies": {
-    "angular": "~1.4.0",
-    "angular-route": "~1.4.0",
-    "angular-loader": "~1.4.0",
-    "angular-mocks": "~1.4.0",
-    "html5-boilerplate": "~5.2.0",
+    "angular": "~1.2.24",
+    "toastr": "~2.0.1",
     "bootstrap": "~3.1.1",
-    "jquery":"~2.1.0",
+    "moment": "~2.6.0",
+    "jquery": "~2.1.0",
+    "angular-route": "~1.2.24",
     "angular-animate": "~1.2.24",
-    "font-awesome":"~4.0.3"
+    "angular-sanitize": "~1.2.24",
+    "font-awesome": "~4.0.3",
+    "extras.ls.plus": "~0.9.0"
   }
 }
